@@ -1,0 +1,28 @@
+public class DataTypes{
+String FirstName="Kathir";
+public static void main(String [] args){
+
+byte number =127; 
+short number2 =20;
+long number3=100;
+int Number=20000;
+float temp=32.3f;
+double percentage=75.88;
+boolean login=true;
+char letter='3';
+String name="Kathirvel";
+name="Kathir";
+int[] values={1,2,3,5};
+System.out.println(number);
+System.out.println(number2);
+System.out.println(number3);
+System.out.println(temp);
+System.out.println(percentage);
+System.out.println(login);
+System.out.println(letter);
+System.out.println(name);
+System.out.println(FirstName);
+System.out.println(values);
+}
+
+}
