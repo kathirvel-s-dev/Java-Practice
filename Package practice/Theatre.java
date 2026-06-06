@@ -2,7 +2,11 @@
 package velachery;
 
 public class Theatre{
-    public static void main(String [] args ){
+    public Theatre(){
+        System.out.println("constructor");
+    }
+
+    public static void main(String [] args){
         Theatre person=new Theatre();
         person.watch();
 
@@ -11,4 +15,5 @@ public class Theatre{
     public void watch(){
         System.out.println("watch blast movie");
     }
+
 }

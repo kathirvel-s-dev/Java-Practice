@@ -1,5 +1,11 @@
 public class Mobile{
+
+            public Mobile(){
+            System.out.println("mobile- constructor");
+        }
     public static void main(String[] args){
+
+
 
         Mobile mobile=new Mobile();
         mobile.calling();

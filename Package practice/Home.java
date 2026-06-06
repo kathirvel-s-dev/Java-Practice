@@ -1,5 +1,5 @@
 package tambaram;
-// import velachery.Theatre;
+import velachery.Theatre;
 
 public class Home{
 

@@ -1,5 +1,11 @@
 public class Samsung extends Mobile{
+
+          public  Samsung(){
+            System.out.println("samsung-constructor");
+        }
     public static void main(String[] args){
+
+ 
         Samsung samsung=new Samsung();
         samsung.calling();
         samsung.message();  /// this works bcz wee can acces through the extend keyword another class
