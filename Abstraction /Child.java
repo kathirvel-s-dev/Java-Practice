@@ -7,5 +7,6 @@ public class Child extends Parent{
         Child child = new Child();
         child.study();
         System.out.println();
+        toString()
     }
 }
