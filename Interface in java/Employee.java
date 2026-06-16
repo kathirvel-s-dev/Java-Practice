@@ -1,8 +1,8 @@
 public class Employee implements Company{
 
-    public Employee(){
-        System.out.println("employee constructor");
-    }
+    // public Employee(){
+    //     System.out.println("employee constructor");
+    // }
     public void takeLeave(){
         System.out.println("8 days");
     }
@@ -16,7 +16,10 @@ public class Employee implements Company{
 
         // Company com=new Company();
 
-        emp.takeLeave();
-        System.out.println();
+        // emp.takeLeave();
+
+        emp.number=20;
+
+        System.out.println(number);
     }
 }
