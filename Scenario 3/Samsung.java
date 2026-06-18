@@ -14,7 +14,7 @@ public class Samsung extends FactoryDemo{
 
 
     public static void main(String[] args){
-        Samsung samsung=new Samsung();
+        Samsung samsung=new Samsung(); //constructor calls from smartphone
         samsung.browse();  //factory demo browse method calls 
         
         System.out.println(samsung.price); //5000 it access this class price 

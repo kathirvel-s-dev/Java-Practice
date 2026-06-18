@@ -1,7 +1,7 @@
 public abstract class SmartPhone{
 
     public SmartPhone(){
-        System.out.println("Smartphone uder development");
+        System.out.println("Smartphone under development");
     }
 
 
